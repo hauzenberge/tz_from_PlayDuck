@@ -24,6 +24,8 @@ Follow these steps to set up the project on your local machine.
 git clone git@github.com:hauzenberge/tz_from_PlayDuck.git
 cd tz_from_PlayDuck
 
+```
+
 ### 2. Install Dependencies
 
 Make sure you have Composer and npm installed. Then run:
