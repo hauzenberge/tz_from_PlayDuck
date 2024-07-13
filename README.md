@@ -23,7 +23,6 @@ Follow these steps to set up the project on your local machine.
 ```bash
 git clone git@github.com:hauzenberge/tz_from_PlayDuck.git
 cd tz_from_PlayDuck
-
 ```
 
 ### 2. Install Dependencies
@@ -33,6 +32,7 @@ Make sure you have Composer and npm installed. Then run:
 ```bash
 composer install
 npm install
+```
 
 ### 3. Set Up Environment File
 
@@ -40,6 +40,7 @@ Copy the example environment file and update the environment variables as needed
 
 ```bash
 cp .env.example .env
+```
 
 Edit the .env file to set up your database connection and other environment variables:
 
@@ -50,6 +51,7 @@ DB_PORT=3306
 DB_DATABASE=book_rating_app
 DB_USERNAME=root
 DB_PASSWORD=
+```
 
 
 ### 4. Generate Application Key
@@ -57,6 +59,7 @@ Generate a new application key:
 
 ```bash
 php artisan key:generate
+```
 
 
 ### 5. Run Migrations and Seeders
@@ -64,6 +67,7 @@ Run the database migrations and seed the database with initial data:
 
 ```bash
 php artisan migrate --seed
+```
 
 
 ### 6. Compile Assets
@@ -71,12 +75,14 @@ Compile the frontend assets:
 
 ```bash
 npm run dev
+```
 
 ### 7. Serve the Application
 Start the Laravel development server:
 
 ```bash
 php artisan serve
+```
 
 Visit http://localhost:8000 in your web browser to view the application.
 
